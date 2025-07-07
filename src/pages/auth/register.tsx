@@ -1,10 +1,9 @@
-import Link from "next/link"
+import RegisterViews from "@/components/views/auth/register"
 
 const RegisterPage = () => {
     return (
         <div>
-            <h1>Register Page</h1>
-            Have Account <Link href={"/auth/login"} style={{fontWeight: 800}}>Sign In</Link>
+            <RegisterViews />
         </div>
     )
 }
